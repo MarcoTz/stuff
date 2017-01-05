@@ -1,3 +1,6 @@
+MAX = 100
+MIN = 0
+
 #converts nr to list of digits
 def nr_to_ls(i):
 	s = str(i)
@@ -23,8 +26,7 @@ def try_happy(i):
 	return passed
 
 connections = []
-for i in range(0,100):
-	conns = try_happy(i)
+for i in range(MIN,MAX):
 	for i in range(0,len(conns)-1):
 		if (conns[i],conns[i+1]) not in connections:
 			connections.append((conns[i],conns[i+1]))
