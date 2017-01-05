@@ -7,4 +7,4 @@ Some random programs
 * caesar.h encodes or decodes text in ceasar cipher
 * snek.cpp snake in the terminal in c++
 * 6174 calculates the kaprekar route of all numbers between 0 and 9999 (see https://en.wikipedia.org/wiki/6174_(number))
-
+* happynr creates a graph plotting every number from 1-100 and if it's a happy number(see https://en.wikipedia.org/wiki/Happy_number)
